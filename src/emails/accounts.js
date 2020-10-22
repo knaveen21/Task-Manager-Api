@@ -5,7 +5,7 @@ const sgMail = require('@sendgrid/mail')
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
 
-// TODO --To send a mail on user signup
+// TODO --To send a mail on user signup ---
 const sendWelcomeEmail = (email, name) => {
 
     sgMail.send({
